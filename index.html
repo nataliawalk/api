@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="Natalia Walkiewicz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Search using API</h1>
+
+    <div class="timezone">
+        <label for="timezoneSelect">Choose a country:</label>
+        <select name="timezones" id="timezoneSelect"></select>
+
+        <div class="timezoneCountry"></div>
+        <div class="timezoneTime"></div>
+        <div class="timezoneUtc"></div>
+    </div>
+
+    <div class="country">
+        <label for="countryName">Write country name:</label>
+        <input type="text" id="countryName" name="countryName">
+        <input type="submit" id="check" value="check">
+
+        <div class="countryCommon"></div>
+        <div class="countryOfficial"></div>
+        <div class="countryCapital"></div>
+        <div class="countryRegion"></div>
+        <div class="countryPopulation"></div>
+        <div class="countryTimezones"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

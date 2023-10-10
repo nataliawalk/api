@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-rows: 80px 100px auto;
+    font-size: 17px;
+}
+
+label {
+    font-weight: 600;
+}
