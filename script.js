@@ -1,4 +1,4 @@
-const timezoneUrl =  'http://worldtimeapi.org/api/timezone';
+const timezoneUrl =  'https://worldtimeapi.org/api/timezone';
 const timezoneSelect = document.getElementById('timezoneSelect');
 const timezoneTime = document.querySelector('.timezoneTime');
 const timezoneUtc = document.querySelector('.timezoneUtc');
